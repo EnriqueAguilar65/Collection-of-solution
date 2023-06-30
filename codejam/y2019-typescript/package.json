@@ -1,0 +1,16 @@
+{
+  "name": "codejam",
+  "version": "1.0.0",
+  "description": "Solutions to Google Code Jam 2019 problems",
+  "main": "index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "typescript": "2.1.5"
+  },
+  "scripts": {
+    "qr1": "tsc .\\src\\QualificationRound\\ForegoneSolution.ts --module system --outFile .\\dist\\QualificationRound\\ForegoneSolution.js && node .\\dist\\QualificationRound\\ForegoneSolution.js < .\\data\\QualificationRound\\ForegoneSolution.sample.input"
+  },
+  "author": "Marco Lackovic",
+  "license": "MIT"
+}

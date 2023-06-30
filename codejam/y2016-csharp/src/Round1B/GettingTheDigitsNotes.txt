@@ -1,0 +1,20 @@
+U => FOUR
+W => TWO
+X => SIX
+Z => ZERO
+G => EIGHT
+H => THREE (after removed all EIGHT)
+S = SEVEN (after removed all the SIXes)
+V => FIVE (after removed all the SEVENs)
+O => ONE (after removed all the previous)
+I => NINE
+
+---
+
+?9 ?0 => 09  10
+?8 ?0 => 08  10
+?7 ?0 => 07  10
+?6 ?0 => 06  10
+?5 ?0 => 05  10
+
+2?3 12
